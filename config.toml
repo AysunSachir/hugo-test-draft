@@ -1,0 +1,61 @@
+baseURL = ""
+languageCode = "en-us"
+canonifyURLs = false
+copyright = 2019
+assetDir = "./"
+title = "Test"
+ignoreFiles = [ "\\.git$", "\\.git" ]
+disableKinds = ["taxonomy", "taxonomyTerm"]
+relativeURLs = false
+
+[params]
+  menu = "menu"
+  footer = "footer"
+
+
+[menu]
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/home.svg"
+    URL = "/"
+    weight = -110
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/wallet-account.svg"
+    URL = "/cont/"
+    weight = -100
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/debitcard.svg"
+    URL = "/card-debit/"
+    weight = -90
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/myreserve-icon.svg"
+    URL = "/my-reserve/"
+    weight = -85
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/offerstag.svg"
+    URL = "/oferte/"
+    weight = -80
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/nfccontactless.svg"
+    URL = "/nfc/"
+    weight = -70
+
+  [[menu.main]]
+    Name = "home"
+    Pre = "/assets/svg/send-money.svg"
+    URL = "/trimite-bani-online/"
+    weight = -60
+
+[outputs]
+home     = ["HTML"]
+section  = ["HTML"]

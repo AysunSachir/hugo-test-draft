@@ -1,0 +1,25 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/node_modules
+/bower_components
+/public
+public
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+Icon?
+Icon\r
+Icon
+
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+
